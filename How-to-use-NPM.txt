@@ -1,0 +1,31 @@
+1-create npm account
+npm adduser
+
+2-check what user is logged 
+npm whoami
+
+3-Create npm package (automatically creates package.json)
+npm init --scope=<username>
+e.g. npm init --scope=andre-l-mm
+
+4-Install module
+npm install <pacakge_name>
+-g to install as global module
+
+5-list modules
+npm ls
+This requires adding any packages installed previously to be added as dependencies on packages.json
+
+5-publish current module to npm
+npm publish 
+
+6-Change version of current module
+npm version 1.0.1
+This will update the version on package.json to 1.0.1
+
+7-Add dist-tag to package
+npm dist-tag add <module name>@<version number> <tag name>
+e.g. npm dist-tag add hello-world@1.0.3 fixpack
+
+8-list outdated dependencies
+npm list outdated
