@@ -22,7 +22,9 @@
 * git tag -a v1.2 -m "version V1.2"
 * git push --tags
 
- 
+**3. Deleting the tag remotely**
+ * git push --delete origin v1.2
+
 **4. Proxy settings**
 * npm config set strict-ssl false
 * npm config set proxy http://proxy.patidar.com:8080/
